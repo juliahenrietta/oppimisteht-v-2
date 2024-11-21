@@ -1,0 +1,118 @@
+ /* taustan väri */
+ .navbar-custom {
+    background-color: rgba(204, 194, 206, 0.9);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #3d9b88;
+}
+
+/* hampurilaiskuvion väri */
+.custom-toggler .navbar-toggler-icon {
+    background-image: 
+    url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .navbar-custom {
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+/*Haitarimallin tyylit*/
+
+/* Yleinen haitaripaneelin tyyli */
+.accordion-item {
+    border: 1px solid #c4b8c7; 
+    margin-bottom: 10px;
+    border-radius: 5px; 
+}
+
+/* Ensimmäinen paneeli */
+.accordion-item:nth-child(1) .accordion-header {
+    background-color: #f8e1f4; 
+}
+.accordion-item:nth-child(1) .accordion-body {
+    background-color: #fdeaf7; 
+    color: #000000; 
+}
+
+/* Toinen paneeli */
+.accordion-item:nth-child(2) .accordion-header {
+    background-color: #e6f8f4; 
+}
+.accordion-item:nth-child(2) .accordion-body {
+    background-color: #d8f4ef; 
+    color: #064d44; 
+}
+
+/* Kolmas paneeli */
+.accordion-item:nth-child(3) .accordion-header {
+    background-color: #fbe4d5; 
+}
+.accordion-item:nth-child(3) .accordion-body {
+    background-color: #f8e8de; 
+    color: #8b4513; 
+}
+
+/* Otsikon fontin väri ja hover-efekti */
+.accordion-button {
+    color: #d57979; 
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #000000; 
+    color: white; 
+}
+.accordion-button:hover {
+    color: #dc9a9a; 
+}
+
+  #ravintola img {width: 100%;
+                  max-width: 500px;
+                  height: auto;
+                  max-height: 500px;
+            }
+
+    #ravintola img:first-child {
+        border-radius: 30% 0 30% 0;
+    }
+
+    #ravintola img:last-child {
+        border-radius: 0 30% 0 30%;
+    }
+    
+    #ravintola {
+        padding-top: 70px;
+    }
+  
+    .table-hover tbody tr:hover {
+        background-color: rgba(116, 3, 135, 0.1); 
+    }
+        a {
+        text-decoration: none;
+        color: #741787; 
+
+    }
+
+    /*scroll-spy*/
+    .nav-link.active {
+        color: white !important;
+      }
+      
+      body { position: relative; 
+	  }
+  
